@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is backend for angular app",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --middlewares ./auth.js --routes routes.json",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliaksandrHutsanovich/backend-for-angular-app.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliaksandrHutsanovich/backend-for-angular-app/issues"
+  },
+  "homepage": "https://github.com/AliaksandrHutsanovich/backend-for-angular-app#readme"
+}
